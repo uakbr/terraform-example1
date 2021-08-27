@@ -221,3 +221,4 @@ resource "aws_flow_log" "example" {
     traffic_type = "ALL"
     vpc_id = aws_vpc.new_vpc.id
 }
+5
